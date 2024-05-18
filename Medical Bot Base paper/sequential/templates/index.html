@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedBot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>MedBot</h1>
+        <div class="chatbox" id="chatbox"></div>
+        <div class="input-container">
+            <input type="text" id="user_input" placeholder="Type your message here..." onkeydown="submitMessage(event)">
+        </div>
+    </div>
+    
+    <script>
+        function submitMessage(event) {
+            if (event.key === "Enter") {
+                var message = document.getElementById("user_input").value;
+                document.getElementById("chatbox").innerHTML += "<div class='message user-message'><strong>You:</strong> " + message + "</div>";
+                document.getElementById("user_input").value = "";
+                fetch("/get_response", {
+                    method: "POST",
+                    body: new URLSearchParams({ message: message }),
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    }
+                })
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("chatbox").innerHTML += "<div class='message bot-message'><strong>MedBot:</strong> " + data + "</div>";
+                    document.getElementById("chatbox").scrollTop = document.getElementById("chatbox").scrollHeight;
+                });
+            }
+        }
+    </script>
+</body>
+</html>

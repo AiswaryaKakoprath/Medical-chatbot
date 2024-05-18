@@ -1,0 +1,63 @@
+/* style.css */
+
+body {
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAACAwQAAQX/xAAdEAEBAQEAAwEBAQAAAAAAAAAAAgEDESExEkET/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AGO5nnXDuUeQHzhVz5h5Qq5wDRHg6YFEHRAAmB5zNyDMgCMh3/M/Ib8An2AVCvYBUAjqCbhdUE3AIOkJunN6Nwn6QDzOk+C1fWEt540HGZgFGedWcYJ4St5QBnOFXOQc5U85B2JPmGiTpkA5JmSKZHkAXku/k7Ib8ARsg2VOwCpBLUFVCupKqQRXCbpK+4T9JB5vWEfaHp9Z9I+0Ah9sOp9sCvjK3lPwjjKzlIHc5U85L5yp5yA4k2ZaJOmQcmR5IskeSAMlvyZ+XfAE7Idk/cDsgmqSqlVUlVII7lP0lbeJ+kg8/pPpJ2l6PSfSPrIPPqc8uHVPt0FHHPSzlnwjjizlgHc8UxhXPFPPAMjDpwMYbOA7mDzGzB5gBzHfyLw3gAbgaw3wHcAisKrFNYTeAmuU/SVl4m6YCHrKTrj0OmekfXAQVntjKn2wH8cW8sTccWcs+Ao54pjCOeKYAyMOnAThs4AsweOTg8Bzw3gTADQ7hgdArcLrDqwqgT3ifpiu8T9MBF1xJ1xd1z0k64CKvrCrPbAfxWcviTis5fAU88Uc8I5qY/gGwdhUnSA8FjmCBmdxgc0Oi8OaBVF0dWFUBF4n6YpsiwSdM9JOq3oj6gjr6wrz24BvFbz+IuK3n8BVzUc0/P4o5/wD5NkqTZAzBYHBYDrMwMHRB0A0VRtFUBN4n6KbTdATdEnVV0S9QS19cavrAPit5fEPFby0FfNTCXnqjnoKIOwiNOkDMHheDwBM5mu+Qc1zXd0O6ANLoyiq0CrIs69T3oJ+iTqq6b6SdQS19ZyvrALjq3lrz+OreWgt56p56k56o56CqNNnU8admgdmjzSp0XkB+XfIc1vIO+Q7reQ1oOVpdaKtKrQBep+mm1qfpoEdN9JOuqeu+kfXQT1vtgVvtgd46t5a4wLOeqebMB0adOswGTo8ZgdzXfLMDgaZgLrS71mAi9T9GYEvXUnXWYElfWZgf//Z'); /* Replace this URL with your background image URL */
+    background-size: cover; /* Cover the entire background */
+    background-position: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    background-image: url('https://b1912588.smushcdn.com/1912588/wp-content/uploads/2022/12/headerBkgd-PlumChat-900x300.jpg?lossy=1&strip=1&webp=1'); /* Add your image URL here */
+    background-size: cover; /* Cover the entire container */
+    background-position: center;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.chatbox {
+    padding: 20px;
+    overflow-y: auto;
+    height: 300px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message strong {
+    color: #333;
+}
+
+.user-message {
+    text-align: right;
+}
+
+.bot-message {
+    text-align: left;
+}
+
+.input-container {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.input-container input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-container input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+}

@@ -1,0 +1,18 @@
+MedBot: Hi! I am MedBot. How can I help you?
+You: hi
+MedBot: hey!
+You: how old are you?
+MedBot: I get reborn after every compilation
+You: what should i call you?
+MedBot: i am Medbot your medical assistant
+You: i have fever
+MedBot: medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin Câ€“containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup
+You: i have cough 
+MedBot: It seems that you are suffering from common cold
+You: prevention from cold
+MedBot: medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin Câ€“containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup
+You: i how can prevent from common cold
+MedBot: medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin Câ€“containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup
+You: i have to consult doctor
+MedBot: You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor.
+
